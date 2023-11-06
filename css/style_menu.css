@@ -1,0 +1,183 @@
+body{
+display: flex;
+height: 1369px;
+padding: 90px 150px 357px 150px;
+flex-direction: column;
+gap: 10px;
+background: #FFF;
+}
+
+.list-style {
+background: #EEE;
+border-radius: 10px;
+padding: 10px 30px 10px 0px;
+text-align: right;
+}
+
+.list-style a {
+list-style: none;
+}
+
+.list-style a {
+font-family: Verdana;
+padding: 2px 10px;
+font-size: 20px;
+text-decoration: none;
+color: #444;
+border-radius: 5px;
+}
+
+.list-style a:hover {
+background: #FFF;
+}
+
+.list-style .icon {
+display: none;
+}
+
+main{
+padding: 30px;
+align-self: stretch;
+border-radius: 15px;
+background: var(--Grey, #F2F2F2);
+}
+
+h1{
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: -10px;
+}
+
+.bloc{
+display: flex;
+align-items: flex-start;
+gap: 30px;
+align-self: stretch;
+margin-top: 25px;
+}
+
+.card-main{
+display: flex;
+padding-bottom: 0px;
+flex-direction: column;
+align-items: center;
+gap: 4px;
+flex: 1 0 0;
+border-radius: 20px;
+background: #FFF;
+min-width: 100px;
+
+/* Shadow/Card */
+box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.Rectangle20{
+height: 124px;
+align-self: stretch;
+border-radius: 20px 20px 0px 0px;
+border: 5px solid var(--White, #FFF);
+
+}
+
+.card-main_text{
+align-self: stretch;
+color: #000;
+
+/* Card/Title */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 15px;
+}
+
+h2{
+margin-top: 0;
+margin-bottom: -5px;
+font-size: 1.3vw;
+font-weight: bold;
+}
+
+p{
+font-size: 1.1vw;
+font-weight: 400;
+}
+
+.notation{
+align-self: stretch;
+margin-left: 15px;
+margin-top: -10px;
+margin-bottom: 15px;
+}
+
+.fa-star {
+color: #0065FC;
+}
+
+.grey {
+color: #7c77776b;
+}
+
+h3{
+color: #000;
+
+/* Title/Filter */
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@media (max-width: 768px){
+    body{
+    padding: 30px 10px 0px 10px;
+    }
+    
+    main{
+    padding: 30px 10px 10px 10px;
+    }
+
+    .bloc{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    }
+
+    .card-main{
+    min-width: 250px;
+    max-width: 400px;
+    margin: auto;
+    }
+
+    h2{
+    font-size: 18px;
+    }
+
+    p{
+    font-size: 14px;
+    }
+        
+    .list-style a:not(first) {display: none;}
+
+    .list-style a.icon {
+    float: right;
+    display: block;
+    }
+    
+    .list-style.responsive {position: relative;}
+    .list-style.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+
+    .list-style.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    }
+}
