@@ -109,6 +109,10 @@ line-height: normal;
     body{
     padding: 30px 10px 0px 10px;
     }
+
+    main{
+    padding: 30px 10px 10px 10px;
+    }
     
     .bloc{
     display: flex;
