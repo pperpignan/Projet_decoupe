@@ -115,6 +115,7 @@ border: #e91f9c solid 2px;
 
 .fa-star {
 color: #0065FC;
+font-size: 1.5vw;
 }
 
 .grey {
@@ -157,5 +158,7 @@ border: #0fcf85 solid 2px;
     p{
     font-size: 14px;
     }
-
+    .fa-star {
+        font-size: 15px;
+    }
 }

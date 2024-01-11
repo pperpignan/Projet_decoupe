@@ -89,6 +89,7 @@ margin-bottom: 15px;
 
 .fa-star {
 color: #0065FC;
+font-size: 1.5vw;
 }
 
 .grey {
@@ -109,11 +110,11 @@ line-height: normal;
     body{
     padding: 30px 10px 0px 10px;
     }
-
+    
     main{
     padding: 30px 10px 10px 10px;
     }
-    
+
     .bloc{
     display: flex;
     align-items: flex-start;
@@ -134,4 +135,7 @@ line-height: normal;
     font-size: 14px;
     }
 
+    .fa-star {
+        font-size: 15px;
+    }
 }

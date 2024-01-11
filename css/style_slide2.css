@@ -119,6 +119,7 @@ margin-bottom: 15px;
 
 .fa-star {
 color: #0065FC;
+font-size: 1.5vw;
 }
 
 .grey {
@@ -261,6 +262,9 @@ line-height: normal;
     font-size: 14px;
     }
     
+    .fa-star {
+      font-size: 15px;
+  }
     /*gestion menu*/
     .list-style a:not(first) {display: none;}
 
